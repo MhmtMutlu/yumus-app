@@ -79,14 +79,14 @@
     {
       "id": "tr-home", "lang": "tr", "layout": "layout.html", "src": "pages/tr/index.html", "out": "index.html",
       "alternate": "en-home", "body_class": "page-home",
-      "title": "{{app}}: reklamsız slime ve rahatlama oyunu",
-      "description": "{{app}}, çocuklar için reklamsız ve aboneliksiz bir dijital slime atölyesi ve 8 sakin mini oyun. Veri toplamaz, internetsiz çalışır. Yakında App Store'da."
+      "title": "{{app}} · Reklamsız slime atölyesi ve rahatlatıcı oyunlar",
+      "description": "{{app}}, renkleri gerçek boya gibi karışan bir dijital slime atölyesi ve sekiz sakinleştirici mini oyun sunar. Reklam, abonelik ve veri toplama içermez; internet gerektirmez. Yakında App Store'da."
     },
     {
       "id": "en-home", "lang": "en", "layout": "layout.html", "src": "pages/en/index.html", "out": "en/index.html",
       "alternate": "tr-home", "body_class": "page-home",
-      "title": "{{app}}: a slime and relaxation app without ads",
-      "description": "{{app}} is a digital slime workshop and 8 calm mini games for kids, with no ads and no subscriptions. No data collected, works offline. Coming soon to the App Store."
+      "title": "{{app}} · An ad-free slime workshop and calming toys",
+      "description": "{{app}} is a digital slime workshop where colours mix like real paint, plus eight calming mini games. No ads, no subscriptions, no data collection, and no internet required. Coming soon to the App Store."
     },
     {
       "id": "tr-privacy", "lang": "tr", "layout": "layout.html", "src": "pages/tr/gizlilik.html", "out": "gizlilik/index.html",
