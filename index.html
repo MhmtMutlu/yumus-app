@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; font-src 'self'; base-uri 'self'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; img-src 'self' data:; style-src 'self'; font-src 'self'; base-uri 'self'; form-action 'none'">
 <meta name="referrer" content="no-referrer">
 <title>Yumuş: reklamsız slime ve rahatlama oyunu</title>
 <meta name="description" content="Yumuş, çocuklar için reklamsız ve aboneliksiz bir dijital slime atölyesi ve 8 sakin mini oyun. Veri toplamaz, internetsiz çalışır. Yakında App Store'da.">
@@ -32,7 +32,8 @@
 <link rel="apple-touch-icon" href="./apple-touch-icon.png">
 <link rel="preload" href="./assets/fonts/Fredoka.ttf" as="font" type="font/ttf" crossorigin>
 <link rel="preload" href="./assets/fonts/Nunito.ttf" as="font" type="font/ttf" crossorigin>
-<link rel="stylesheet" href="./assets/css/site.css?v=88d06b221b">
+<link rel="stylesheet" href="./assets/css/site.css?v=d573d53023">
+<script src="./assets/js/slime.js?v=8fc1b82c65" defer></script>
 </head>
 <body class="page-home">
 <a class="skip-link" href="#main">İçeriğe geç</a>
@@ -80,7 +81,7 @@
         <img src="./assets/img/layers/bottle_light.webp" alt="" width="88" height="168">
         <img src="./assets/img/layers/bottle_cap.webp" alt="" width="88" height="168">
       </div>
-      <div class="slime slime--hero" role="img" aria-label="Şeftali ve sarı girdaplı, parlak, lila bir slime">
+      <div class="slime slime--hero" data-squish="Dokun ya da sürükle, bırakınca yerine döner" role="img" aria-label="Şeftali ve sarı girdaplı, parlak, lila bir slime">
         <img class="slime__layer" src="./assets/img/layers/slime_shadow.webp" alt="" width="700" height="500">
         <div class="slime__body">
           <svg class="slime__swirls" viewBox="0 0 302 216" preserveAspectRatio="none" aria-hidden="true" focusable="false">

@@ -1,6 +1,6 @@
 # Yumuş web sitesi
 
-Yumuş'un (çocuklar için reklamsız, aboneliksiz, veri toplamayan slime ve rahatlama uygulaması) tanıtım, gizlilik ve destek sayfaları. Statik HTML + CSS; JavaScript, çerez, analitik ve üçüncü taraf istek yok. GitHub Pages ile `main` dalının kökünden yayınlanır.
+Yumuş'un (çocuklar için reklamsız, aboneliksiz, veri toplamayan slime ve rahatlama uygulaması) tanıtım, gizlilik ve destek sayfaları. Statik HTML + CSS; tek JavaScript dosyası ana sayfadaki slime'ı dokunmaya ve sürüklemeye tepki verir hale getirir (`assets/js/slime.js`, yay simülasyonu, "hareketi azalt" ayarına uyar). Çerez, analitik ve üçüncü taraf istek yok. GitHub Pages ile `main` dalının kökünden yayınlanır.
 
 ## App Store Connect adresleri
 

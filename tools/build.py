@@ -95,6 +95,7 @@ def page_values(site: dict, page: dict, pages_by_id: dict) -> dict:
         "og_image_url": site["base_url"] + strings["og_image"],
         "base_path": site["base_path"],
         "css_version": asset_version("assets/css/site.css"),
+        "js_version": asset_version("assets/js/slime.js"),
         "robots": page.get("robots", "index, follow"),
     })
     # Links to the main pages of this page's language.

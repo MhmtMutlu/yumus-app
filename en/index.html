@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; font-src 'self'; base-uri 'self'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; img-src 'self' data:; style-src 'self'; font-src 'self'; base-uri 'self'; form-action 'none'">
 <meta name="referrer" content="no-referrer">
 <title>Yumuş: a slime and relaxation app without ads</title>
 <meta name="description" content="Yumuş is a digital slime workshop and 8 calm mini games for kids, with no ads and no subscriptions. No data collected, works offline. Coming soon to the App Store.">
@@ -32,7 +32,8 @@
 <link rel="apple-touch-icon" href="../apple-touch-icon.png">
 <link rel="preload" href="../assets/fonts/Fredoka.ttf" as="font" type="font/ttf" crossorigin>
 <link rel="preload" href="../assets/fonts/Nunito.ttf" as="font" type="font/ttf" crossorigin>
-<link rel="stylesheet" href="../assets/css/site.css?v=88d06b221b">
+<link rel="stylesheet" href="../assets/css/site.css?v=d573d53023">
+<script src="../assets/js/slime.js?v=8fc1b82c65" defer></script>
 </head>
 <body class="page-home">
 <a class="skip-link" href="#main">Skip to content</a>
@@ -80,7 +81,7 @@
         <img src="../assets/img/layers/bottle_light.webp" alt="" width="88" height="168">
         <img src="../assets/img/layers/bottle_cap.webp" alt="" width="88" height="168">
       </div>
-      <div class="slime slime--hero" role="img" aria-label="A glossy lilac slime with peach and yellow swirls">
+      <div class="slime slime--hero" data-squish="Press or drag it; it springs back when you let go" role="img" aria-label="A glossy lilac slime with peach and yellow swirls">
         <img class="slime__layer" src="../assets/img/layers/slime_shadow.webp" alt="" width="700" height="500">
         <div class="slime__body">
           <svg class="slime__swirls" viewBox="0 0 302 216" preserveAspectRatio="none" aria-hidden="true" focusable="false">

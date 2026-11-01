@@ -472,6 +472,30 @@ main:focus {
   transform-origin: 50% 80%;
 }
 
+/* Touchable once slime.js has started: press, drag, let go. Vertical swipes still scroll the page. */
+.slime--hero.is-squishy {
+  cursor: grab;
+  touch-action: pan-y;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  border-radius: 40%;
+}
+
+.slime--hero.is-squishy img {
+  -webkit-user-drag: none;
+  pointer-events: none;
+}
+
+.slime--hero.is-pressed {
+  cursor: grabbing;
+}
+
+.slime--hero.is-squishy:focus-visible {
+  outline: 3px solid var(--action);
+  outline-offset: 6px;
+}
+
 .hero__art .hero__bottle {
   position: absolute;
   z-index: 1;
@@ -492,9 +516,10 @@ main:focus {
   animation-delay: -3s;
 }
 
+/* `scale` (not `transform`): assets/js/slime.js deforms the slime with `transform`, and the two compose. */
 @keyframes slime-breathe {
-  0%, 100% { transform: scale(1, 1); }
-  50% { transform: scale(1.018, 0.982); }
+  0%, 100% { scale: 1 1; }
+  50% { scale: 1.018 0.982; }
 }
 
 @keyframes bottle-bob {
