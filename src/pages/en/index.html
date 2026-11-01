@@ -1,0 +1,299 @@
+<section class="hero" aria-labelledby="hero-title">
+  <div class="wrap hero__inner">
+    <div class="hero__copy">
+      <p class="eyebrow">A slime workshop for iPhone and iPad</p>
+      <h1 id="hero-title" class="hero__title">{{app}}</h1>
+      <p class="hero__promise">A digital slime workshop with real colour mixing. No ads, no surprises.</p>
+      <p class="hero__sub">No points, no timers, no ads. Just play.</p>
+      <div class="store-soon">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg>
+        <span class="store-soon__text"><span class="store-soon__small">Coming soon</span> <span class="store-soon__big">to the App Store</span></span>
+      </div>
+      <p class="hero__note">Currently in testing on TestFlight. The first version is in Turkish.</p>
+      <ul class="chip-row" aria-label="At a glance">
+        <li class="chip">No ads</li>
+        <li class="chip">No subscriptions</li>
+        <li class="chip">No data collected</li>
+      </ul>
+    </div>
+    <div class="hero__art">
+      <div class="hero__disc" aria-hidden="true"></div>
+      <div class="bottle bottle--blue hero__bottle hero__bottle--left" aria-hidden="true">
+        <span class="bottle__fill"></span>
+        <img src="{{root}}assets/img/layers/bottle_dark.webp" alt="" width="88" height="168">
+        <img src="{{root}}assets/img/layers/bottle_label.webp" alt="" width="88" height="168">
+        <img src="{{root}}assets/img/layers/bottle_light.webp" alt="" width="88" height="168">
+        <img src="{{root}}assets/img/layers/bottle_cap.webp" alt="" width="88" height="168">
+      </div>
+      <div class="slime slime--hero" role="img" aria-label="A glossy lilac slime with peach and yellow swirls">
+        <img class="slime__layer" src="{{root}}assets/img/layers/slime_shadow.webp" alt="" width="700" height="500">
+        <div class="slime__body">
+          <svg class="slime__swirls" viewBox="0 0 302 216" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+            <defs>
+              <radialGradient id="hero-fill" gradientUnits="userSpaceOnUse" cx="136" cy="82" r="220">
+                <stop offset="0" stop-color="#D7C8FF"/>
+                <stop offset="0.5" stop-color="#A98AE8"/>
+                <stop offset="1" stop-color="#4A2F96"/>
+              </radialGradient>
+              <filter id="hero-soften" x="-20%" y="-40%" width="140%" height="180%">
+                <feGaussianBlur stdDeviation="5"/>
+              </filter>
+            </defs>
+            <rect width="302" height="216" fill="url(#hero-fill)"/>
+            <g filter="url(#hero-soften)" fill="none" stroke-linecap="round">
+              <path d="M60 112C103 60 173 164 243 86" stroke="#FF9F72" stroke-opacity="0.8" stroke-width="21"/>
+              <path d="M86 146C129 120 164 159 216 129" stroke="#F6D03C" stroke-opacity="0.65" stroke-width="10"/>
+            </g>
+          </svg>
+        </div>
+        <img class="slime__layer" src="{{root}}assets/img/layers/slime_glitter.webp" alt="" width="700" height="500">
+        <img class="slime__layer" src="{{root}}assets/img/layers/slime_dark.webp" alt="" width="700" height="500">
+        <img class="slime__layer" src="{{root}}assets/img/layers/slime_bubbles.webp" alt="" width="700" height="500">
+        <img class="slime__layer" src="{{root}}assets/img/layers/slime_light.webp" alt="" width="700" height="500">
+      </div>
+      <div class="bottle bottle--yellow hero__bottle hero__bottle--right" aria-hidden="true">
+        <span class="bottle__fill"></span>
+        <img src="{{root}}assets/img/layers/bottle_dark.webp" alt="" width="88" height="168">
+        <img src="{{root}}assets/img/layers/bottle_label.webp" alt="" width="88" height="168">
+        <img src="{{root}}assets/img/layers/bottle_light.webp" alt="" width="88" height="168">
+        <img src="{{root}}assets/img/layers/bottle_cap.webp" alt="" width="88" height="168">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="just-like-real" aria-labelledby="real-title">
+  <div class="wrap">
+    <header class="section-head">
+      <p class="eyebrow">Just like the real thing</p>
+      <h2 id="real-title">What shall we squish today?</h2>
+      <p class="lead">Pour paint from a bottle, mix it with your finger, then stretch, squeeze, poke and fold. The slime flows, stretches and slowly settles back like a real material.</p>
+    </header>
+    <ol class="steps">
+      <li class="step">
+        <figure class="phone">
+          <div class="phone__frame"><img src="{{root}}assets/img/shots/atolye-dok.webp" width="600" height="1305" loading="lazy" alt="The Workshop screen: a blue bottle from the paint shelf pours into the bowl."></div>
+        </figure>
+        <div class="step__copy">
+          <h3><span class="step__num" aria-hidden="true">1</span> Pour</h3>
+          <p>Pick a bottle from the shelf and let the paint flow into the bowl. Tilt the phone to pour more.</p>
+        </div>
+      </li>
+      <li class="step">
+        <figure class="phone">
+          <div class="phone__frame"><img src="{{root}}assets/img/shots/atolye-karistir.webp" width="600" height="1305" loading="lazy" alt="The Workshop screen: blue and yellow paint mixed by finger, with a green marbled swirl appearing in the middle."></div>
+        </figure>
+        <div class="step__copy">
+          <h3><span class="step__num" aria-hidden="true">2</span> Mix</h3>
+          <p>Drag your finger through it. The colours marble first, then blend into one as you keep going.</p>
+        </div>
+      </li>
+      <li class="step">
+        <figure class="phone">
+          <div class="phone__frame"><img src="{{root}}assets/img/shots/oyun-alani.webp" width="600" height="1305" loading="lazy" alt="The Play Area screen: a colourful, glittery slime with the Stretch, Squeeze, Poke and Fold tools."></div>
+        </figure>
+        <div class="step__copy">
+          <h3><span class="step__num" aria-hidden="true">3</span> Stretch</h3>
+          <p>In the Play Area, pull it with two fingers, squeeze, poke and fold. Every touch has its own sound and haptic feel.</p>
+          <p class="step__note">The aurora paint shown here is part of Plus.</p>
+        </div>
+      </li>
+    </ol>
+
+    <div class="mix clay">
+      <div class="mix__art" role="img" aria-label="A blue paint bottle plus a yellow paint bottle equals a green slime">
+        <div class="bottle bottle--blue" aria-hidden="true">
+          <span class="bottle__fill"></span>
+          <img src="{{root}}assets/img/layers/bottle_dark.webp" alt="" width="88" height="168" loading="lazy">
+          <img src="{{root}}assets/img/layers/bottle_label.webp" alt="" width="88" height="168" loading="lazy">
+          <img src="{{root}}assets/img/layers/bottle_light.webp" alt="" width="88" height="168" loading="lazy">
+          <img src="{{root}}assets/img/layers/bottle_cap.webp" alt="" width="88" height="168" loading="lazy">
+        </div>
+        <span class="mix__op" aria-hidden="true">+</span>
+        <div class="bottle bottle--yellow" aria-hidden="true">
+          <span class="bottle__fill"></span>
+          <img src="{{root}}assets/img/layers/bottle_dark.webp" alt="" width="88" height="168" loading="lazy">
+          <img src="{{root}}assets/img/layers/bottle_label.webp" alt="" width="88" height="168" loading="lazy">
+          <img src="{{root}}assets/img/layers/bottle_light.webp" alt="" width="88" height="168" loading="lazy">
+          <img src="{{root}}assets/img/layers/bottle_cap.webp" alt="" width="88" height="168" loading="lazy">
+        </div>
+        <span class="mix__op" aria-hidden="true">=</span>
+        <div class="slime slime--small slime--green" aria-hidden="true">
+          <img class="slime__layer" src="{{root}}assets/img/layers/slime_shadow.webp" alt="" width="700" height="500" loading="lazy">
+          <div class="slime__body"></div>
+          <img class="slime__layer" src="{{root}}assets/img/layers/slime_dark.webp" alt="" width="700" height="500" loading="lazy">
+          <img class="slime__layer" src="{{root}}assets/img/layers/slime_bubbles.webp" alt="" width="700" height="500" loading="lazy">
+          <img class="slime__layer" src="{{root}}assets/img/layers/slime_light.webp" alt="" width="700" height="500" loading="lazy">
+        </div>
+      </div>
+      <div class="mix__copy">
+        <h3>Blue and yellow make green.</h3>
+        <p>Here colours mix like real paint, not like light on a screen: blue and yellow turn green, not grey. Under the hood is a model from paint science (Kubelka–Munk).</p>
+        <p>Free: 27 colours, 4 textures (Glossy, Cloud, Butter, Clear) and 5 add-ins. Put a slime you love in a jar and tell a friend its recipe code so they can make the same one.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--tinted" id="mini-games" aria-labelledby="games-title">
+  <div class="wrap">
+    <header class="section-head">
+      <p class="eyebrow">8 mini games</p>
+      <h2 id="games-title">Take a little breather</h2>
+      <p class="lead">Each game has one toy, a few options and its own sounds. You always play by touching the object itself.</p>
+    </header>
+    <ul class="games">
+      <li class="game game--popit">
+        <div class="toy toy--popit" aria-hidden="true">
+          <span class="pop pop--red"><span class="pop__fill"></span><img src="{{root}}assets/img/layers/pop_up_dark.webp" alt="" width="140" height="140" loading="lazy"><img src="{{root}}assets/img/layers/pop_up_light.webp" alt="" width="140" height="140" loading="lazy"></span>
+          <span class="pop pop--yellow"><span class="pop__fill"></span><img src="{{root}}assets/img/layers/pop_down_dark.webp" alt="" width="140" height="140" loading="lazy"><img src="{{root}}assets/img/layers/pop_down_light.webp" alt="" width="140" height="140" loading="lazy"></span>
+          <span class="pop pop--blue"><span class="pop__fill"></span><img src="{{root}}assets/img/layers/pop_up_dark.webp" alt="" width="140" height="140" loading="lazy"><img src="{{root}}assets/img/layers/pop_up_light.webp" alt="" width="140" height="140" loading="lazy"></span>
+        </div>
+        <h3>{{pop_it}}</h3>
+        <p>Square, heart, round, cloud; 4 colour schemes, 3 sizes.</p>
+      </li>
+      <li class="game game--magnet">
+        <div class="toy" aria-hidden="true"><img src="{{root}}assets/img/layers/magnet.webp" alt="" width="320" height="130" loading="lazy"></div>
+        <h3>Stress Magnet</h3>
+        <p>A pair of hematite magnets; flick, shake, toss up. “Zzzrt.”</p>
+      </li>
+      <li class="game game--sand">
+        <div class="toy" aria-hidden="true"><img src="{{root}}assets/img/layers/sand.webp" alt="" width="360" height="237" loading="lazy"></div>
+        <h3>{{kinetic_sand}}</h3>
+        <p>A turning bar smooths the sand; you mess it up, it fills it back in.</p>
+      </li>
+      <li class="game game--wrap">
+        <div class="toy toy--wrap" aria-hidden="true">
+          <span class="wrap-cell"><img src="{{root}}assets/img/layers/wrap_up_dark.webp" alt="" width="120" height="120" loading="lazy"><img src="{{root}}assets/img/layers/wrap_up.webp" alt="" width="120" height="120" loading="lazy"></span>
+          <span class="wrap-cell"><img src="{{root}}assets/img/layers/wrap_popped_dark.webp" alt="" width="120" height="120" loading="lazy"><img src="{{root}}assets/img/layers/wrap_popped.webp" alt="" width="120" height="120" loading="lazy"></span>
+          <span class="wrap-cell"><img src="{{root}}assets/img/layers/wrap_up_dark.webp" alt="" width="120" height="120" loading="lazy"><img src="{{root}}assets/img/layers/wrap_up.webp" alt="" width="120" height="120" loading="lazy"></span>
+        </div>
+        <h3>Bubble Wrap</h3>
+        <p>An endless roll in three sizes; every bubble crackles differently.</p>
+      </li>
+      <li class="game game--soap">
+        <div class="toy" aria-hidden="true"><img src="{{root}}assets/img/layers/soapP.webp" alt="" width="320" height="210" loading="lazy"></div>
+        <h3>Cutting Board</h3>
+        <p>Real-looking soap bars and sponges; you pull the knife yourself.</p>
+      </li>
+      <li class="game game--zen">
+        <div class="toy" aria-hidden="true"><img src="{{root}}assets/img/layers/tray_furrow.webp" alt="" width="220" height="90" loading="lazy"></div>
+        <h3>Zen Garden</h3>
+        <p>Rake the sand, place stones, draw waves.</p>
+      </li>
+      <li class="game game--breath">
+        <div class="toy toy--balloon" aria-hidden="true">
+          <span class="balloon"><span class="balloon__fill"></span><img src="{{root}}assets/img/layers/balloon_dark.webp" alt="" width="200" height="200" loading="lazy"><img src="{{root}}assets/img/layers/balloon_light.webp" alt="" width="200" height="200" loading="lazy"></span>
+        </div>
+        <h3>Breathing Balloon</h3>
+        <p>Breathe in as the balloon grows, out as it shrinks. 4-7-8.</p>
+      </li>
+      <li class="game game--water">
+        <div class="toy" aria-hidden="true">
+          <svg class="ripples" viewBox="0 0 80 40" focusable="false">
+            <ellipse cx="40" cy="20" rx="36" ry="17" fill="none" stroke="#2E8B8B" stroke-opacity="0.44" stroke-width="2.5"/>
+            <ellipse cx="40" cy="20" rx="24" ry="11.5" fill="none" stroke="#2E8B8B" stroke-opacity="0.72" stroke-width="2.5"/>
+            <ellipse cx="40" cy="20" rx="12" ry="6" fill="none" stroke="#2E8B8B" stroke-width="2.5"/>
+            <circle cx="40" cy="20" r="3" fill="#2E8B8B"/>
+          </svg>
+        </div>
+        <h3>Water Ripples</h3>
+        <p>Tap to drop a drip; watch the rings spread and the sound fade.</p>
+      </li>
+    </ul>
+
+    <div class="gallery" role="region" aria-label="Screenshots of the mini games" tabindex="0">
+      <ul class="gallery__list">
+        <li><figure class="phone phone--small"><div class="phone__frame"><img src="{{root}}assets/img/shots/pop-it.webp" width="600" height="1305" loading="lazy" alt="{{pop_it}}: rainbow bubbles from red to blue."></div><figcaption>{{pop_it}}</figcaption></figure></li>
+        <li><figure class="phone phone--small"><div class="phone__frame"><img src="{{root}}assets/img/shots/kesme-tahtasi.webp" width="600" height="1305" loading="lazy" alt="Cutting Board: a slice cut from a pink rose soap, the knife resting on the board."></div><figcaption>Cutting Board</figcaption></figure></li>
+        <li><figure class="phone phone--small"><div class="phone__frame"><img src="{{root}}assets/img/shots/nefes-balonu.webp" width="600" height="1305" loading="lazy" alt="Breathing Balloon: a lilac balloon reading “Tut” (hold), with the 4-7-8 rhythm selected below."></div><figcaption>Breathing Balloon</figcaption></figure></li>
+        <li><figure class="phone phone--small"><div class="phone__frame"><img src="{{root}}assets/img/shots/baloncuk.webp" width="600" height="1305" loading="lazy" alt="Bubble Wrap: a roll full of clear bubbles."></div><figcaption>Bubble Wrap</figcaption></figure></li>
+        <li><figure class="phone phone--small"><div class="phone__frame"><img src="{{root}}assets/img/shots/su-halkalari.webp" width="600" height="1305" loading="lazy" alt="Water Ripples: rings overlapping on dark teal water."></div><figcaption>Water Ripples</figcaption></figure></li>
+        <li><figure class="phone phone--small"><div class="phone__frame"><img src="{{root}}assets/img/shots/zen-bahcesi.webp" width="600" height="1305" loading="lazy" alt="Zen Garden: raked black sand, two white stones, a red bridge and two stone lanterns."></div><figcaption>Zen Garden · black sand, bridge and lanterns are Plus</figcaption></figure></li>
+      </ul>
+    </div>
+    <p class="section-foot">No points, no timers, no ads. Just play.</p>
+  </div>
+</section>
+
+<section class="section" id="{{anchor_parents}}" aria-labelledby="parents-title">
+  <div class="wrap parents">
+    <div class="parents__copy">
+      <header class="section-head section-head--left">
+        <p class="eyebrow">For parents</p>
+        <h2 id="parents-title">Hand it over with peace of mind.</h2>
+        <p class="lead">{{app}} is made for winding down, not for keeping kids glued to the screen. No ads, no tracking, no surprise payments.</p>
+      </header>
+      <ul class="features">
+        <li class="feature">
+          <svg class="icon feature__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8.5"/><path d="M6 6l12 12"/></svg>
+          <div><h3>No ads</h3><p>No banners, no pop-ups, no “watch to earn”. No third-party advertising or tracking code.</p></div>
+        </li>
+        <li class="feature">
+          <svg class="icon feature__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3.5 11.6V4.5a1 1 0 0 1 1-1h7.1l8.9 8.9-8.1 8.1z"/><circle cx="8.2" cy="8.2" r="1.6"/></svg>
+          <div><h3>No subscriptions</h3><p>The one-time {{plus}} is the only purchase. No coins, no energy, no limited-time offers.</p></div>
+        </li>
+        <li class="feature">
+          <svg class="icon feature__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="6.5" y="2.5" width="11" height="19" rx="3"/><path d="M11 18h2"/></svg>
+          <div><h3>No data collected</h3><p>No accounts, no servers, no analytics. Settings and jars stay on the device. <a href="{{privacy}}">Privacy policy</a></p></div>
+        </li>
+        <li class="feature">
+          <svg class="icon feature__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="4.5" y="10.5" width="15" height="10.5" rx="3"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/><path d="M12 14.5v2.5"/></svg>
+          <div><h3>Parental gate</h3><p>Purchases sit behind a multiplication question for a grown-up, then the App Store asks for its own approval. Nothing in the app links out.</p></div>
+        </li>
+        <li class="feature">
+          <svg class="icon feature__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4.5 9.5h11v4.5a5 5 0 0 1-5 5h-1a5 5 0 0 1-5-5z"/><path d="M15.5 11h1.5a2.5 2.5 0 0 1 0 5h-1.5"/><path d="M8.5 3c0 1.5 1.5 1.5 1.5 3.5M12 3c0 1.5 1.5 1.5 1.5 3.5"/></svg>
+          <div><h3>Break reminder</h3><p>By default, a calm “take a little break” screen every 20 minutes. Change it to 40 minutes or turn it off in Settings.</p></div>
+        </li>
+        <li class="feature">
+          <svg class="icon feature__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9.5" r="2.2"/><path d="M3.5 19.5a5.5 5.5 0 0 1 11 0"/><path d="M14.8 15.4a4 4 0 0 1 5.7 4.1"/></svg>
+          <div><h3>Family Sharing</h3><p>Buy Plus once; with Family Sharing, everyone in the family group can use it.</p></div>
+        </li>
+        <li class="feature">
+          <svg class="icon feature__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M2.5 9a15 15 0 0 1 4-2.6M10.5 5.1A15 15 0 0 1 21.5 9M5.5 12.6a10 10 0 0 1 4.2-2.2M15.8 10.9a10 10 0 0 1 2.7 1.7M8.8 16a5 5 0 0 1 6.4 0"/><path d="M12 19.8h.01"/><path d="M3.5 3.5l17 17"/></svg>
+          <div><h3>Works offline</h3><p>No account, no internet needed. Only buying or restoring Plus connects to the App Store.</p></div>
+        </li>
+      </ul>
+    </div>
+    <figure class="phone parents__phone">
+      <div class="phone__frame"><img src="{{root}}assets/img/shots/kavanozlar.webp" width="600" height="1305" loading="lazy" alt="The jars screen: four slime jars and the line “4 slime · hepsi bu cihazda” (4 slimes, all on this device)."></div>
+      <figcaption>Jars: all on this device.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="section section--lavender" id="plus" aria-labelledby="plus-title">
+  <div class="wrap">
+    <header class="section-head">
+      <p class="eyebrow">{{plus}} · one-time purchase</p>
+      <h2 id="plus-title">Unlock everything, once</h2>
+      <p class="lead">No subscription, no ads, no surprises. The free part stays free forever; Plus never limits the core physics, sounds or play time.</p>
+    </header>
+    <div class="plus-table clay">
+      <table role="table">
+        <caption class="visually-hidden">What is free and what {{plus}} adds</caption>
+        <thead role="rowgroup">
+          <tr role="row"><th scope="col" role="columnheader">Game</th><th scope="col" role="columnheader">Free</th><th scope="col" role="columnheader">With Plus</th></tr>
+        </thead>
+        <tbody role="rowgroup">
+          <tr role="row"><th scope="row" role="rowheader">Workshop</th><td role="cell" data-label="Free">27 colours, 5 add-ins, 4 textures (Glossy, Cloud, Butter, Clear)</td><td role="cell" data-label="With Plus">Aurora, gold and glow-in-the-dark paints, the candy colour series; snow, planet, gold leaf, pearl and stardust add-ins; jelly, sand slime and cloud-snow textures</td></tr>
+          <tr role="row"><th scope="row" role="rowheader">Jars</th><td role="cell" data-label="Free">A shelf for 8 jars, recipe cards and recipe codes</td><td role="cell" data-label="With Plus">A shelf for 60 jars</td></tr>
+          <tr role="row"><th scope="row" role="rowheader">{{pop_it}}</th><td role="cell" data-label="Free">6 boards, 4 colour schemes, 3 sizes</td><td role="cell" data-label="With Plus">Galaxy, Neon Night, Dinosaur, Giant Board, Clear Jelly, Rainbow Heart and boards made from a photo</td></tr>
+          <tr role="row"><th scope="row" role="rowheader">Stress Magnet</th><td role="cell" data-label="Free">Hematite pair, 4 moves</td><td role="cell" data-label="With Plus">Gold and copper magnets, a trio, spheres, sparks, deep bass</td></tr>
+          <tr role="row"><th scope="row" role="rowheader">{{kinetic_sand}}</th><td role="cell" data-label="Free">Sand colour, 3 tray shapes</td><td role="cell" data-label="With Plus">9 sand colours, heart and star trays, bamboo, marble and glass rims, double and spiral bars, night mode</td></tr>
+          <tr role="row"><th scope="row" role="rowheader">Bubble Wrap</th><td role="cell" data-label="Free">Clear roll, 3 sizes</td><td role="cell" data-label="With Plus">Pink, blue, rainbow and metallic rolls, giant bubbles, “squash them all”, bubbles with messages</td></tr>
+          <tr role="row"><th scope="row" role="rowheader">Cutting Board</th><td role="cell" data-label="Free">Rose and lavender soap, sponge, straight knife</td><td role="cell" data-label="With Plus">Honey, glass and marble soap; blue and green sponges, sand block, chalk; wavy knife, wire cutter, mandoline</td></tr>
+          <tr role="row"><th scope="row" role="rowheader">Zen Garden</th><td role="cell" data-label="Free">Sand, 3 stones, rake</td><td role="cell" data-label="With Plus">Black and pink sand, marble stones, bamboo, bridge, lantern, 7-tooth rake, rain and wind</td></tr>
+          <tr role="row"><th scope="row" role="rowheader">Water Ripples</th><td role="cell" data-label="Free">Pond, rain</td><td role="cell" data-label="With Plus">Crystal water, night lake</td></tr>
+          <tr role="row"><th scope="row" role="rowheader">Breathing Balloon</th><td role="cell" data-label="Free">3 rhythms: 4-7-8, box, slow</td><td role="cell" data-label="With Plus">Sunset balloon, sleep rhythm, breathing sensor on the chest</td></tr>
+          <tr role="row"><th scope="row" role="rowheader">Sounds</th><td role="cell" data-label="Free">All game sounds; sound and haptics on/off</td><td role="cell" data-label="With Plus">Ambient sound in every game: rain, fireside, library</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <ul class="plus-notes">
+      <li>A parental question comes before any purchase.</li>
+      <li>Family Sharing included; “Restore purchase” is always available.</li>
+      <li>The price will be shown on the App Store when the app launches.</li>
+    </ul>
+  </div>
+</section>
