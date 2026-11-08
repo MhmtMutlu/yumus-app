@@ -71,11 +71,10 @@ iPhone görünümü için simülatörde: `xcrun simctl openurl booted http://loc
 
 Not: site özel alan adının kökünde (`yumus.mm-apps.com`) yayınlandığı için `robots.txt` ve `sitemap.xml` doğrudan geçerlidir.
 
-## App Store'a çıkış günü
+## App Store
 
-- `src/pages/*/index.html` içindeki "Yakında App Store'da" kutusunu App Store bağlantısına çevirin (Apple'ın resmî rozetini kullanacaksanız Apple Marketing Resources'tan indirip `assets/img/` altına koyun, siteden sunun).
-- Destek sayfasındaki "Ne zaman çıkıyor?" cevabını ve iki dildeki "TestFlight'ta test ediliyor" notlarını güncelleyin.
-- Fiyatı sitede yazmak isterseniz Plus bölümündeki "Fiyat App Store'da görünecek" notunu değiştirin.
+Yumuş App Store'da (<https://apps.apple.com/app/id6829433720>; adres `src/site.json` → `shared.store_url`). Ana sayfa
+ve destek sayfası bu bağlantıyı kullanır; paylaşım görsellerindeki rozet `coming_soon` metninden gelir (`swift tools/og-image.swift`).
 
 ## Kurallar
 

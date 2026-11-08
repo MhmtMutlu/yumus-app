@@ -397,42 +397,8 @@ main:focus {
   font-size: 1.125rem;
 }
 
-.store-soon {
-  display: inline-flex;
-  align-items: center;
-  gap: 12px;
-  min-height: 62px;
+.hero__cta {
   margin-top: 28px;
-  padding: 10px 26px 10px 18px;
-  border-radius: var(--pill);
-  background: var(--ink);
-  box-shadow: 0 16px 28px -14px rgba(51, 38, 46, 0.55), inset 0 2px 0 rgba(255, 255, 255, 0.14);
-  color: #FFFFFF;
-}
-
-.store-soon .icon {
-  width: 28px;
-  height: 28px;
-  flex-shrink: 0;
-}
-
-.store-soon__text {
-  display: flex;
-  flex-direction: column;
-  line-height: 1.15;
-}
-
-.store-soon__small {
-  font-size: 0.75rem;
-  font-weight: 800;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
-.store-soon__big {
-  font-family: var(--font-heading);
-  font-size: 1.3125rem;
-  font-weight: 600;
 }
 
 .hero__note {

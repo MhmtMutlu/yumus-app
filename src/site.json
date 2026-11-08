@@ -3,6 +3,7 @@
   "base_path": "/",
 
   "shared": {
+    "store_url": "https://apps.apple.com/app/id6829433720",
     "email": "destek@mm-apps.com",
     "company": "mm-apps",
     "year": "2026",
@@ -18,10 +19,10 @@
       "og_locale": "tr_TR",
       "og_locale_alt": "en_US",
       "og_image": "assets/img/og-image-tr.png",
-      "og_image_alt": "Yumuş: lila bir slime ve “Yakında App Store'da” yazısı",
+      "og_image_alt": "Yumuş: lila bir slime ve “App Store'da” yazısı",
       "og_line1": "Reklamsız, sürprizsiz, gerçek renk",
       "og_line2": "karıştırmalı dijital slime atölyesi.",
-      "coming_soon": "Yakında App Store'da",
+      "coming_soon": "App Store'da",
       "lang_name": "Türkçe",
       "switch_to": "Türkçe sayfaya geç",
       "skip": "İçeriğe geç",
@@ -47,10 +48,10 @@
       "og_locale": "en_US",
       "og_locale_alt": "tr_TR",
       "og_image": "assets/img/og-image-en.png",
-      "og_image_alt": "Yumuş: a lilac slime and the words “Coming soon to the App Store”",
+      "og_image_alt": "Yumuş: a lilac slime and the words “On the App Store”",
       "og_line1": "A calm slime workshop with real",
       "og_line2": "colour mixing. No ads, no surprises.",
-      "coming_soon": "Coming soon to the App Store",
+      "coming_soon": "On the App Store",
       "lang_name": "English",
       "switch_to": "Switch to the English page",
       "skip": "Skip to content",
@@ -80,13 +81,13 @@
       "id": "tr-home", "lang": "tr", "layout": "layout.html", "src": "pages/tr/index.html", "out": "index.html",
       "alternate": "en-home", "body_class": "page-home",
       "title": "{{app}} · Reklamsız slime atölyesi ve rahatlatıcı oyunlar",
-      "description": "{{app}}, renkleri gerçek boya gibi karışan bir dijital slime atölyesi ve sekiz sakinleştirici mini oyun sunar. Reklam, abonelik ve veri toplama içermez; internet gerektirmez. Yakında App Store'da."
+      "description": "{{app}}, renkleri gerçek boya gibi karışan bir dijital slime atölyesi ve sekiz sakinleştirici mini oyun sunar. Reklam, abonelik ve veri toplama içermez; internet gerektirmez. App Store'da."
     },
     {
       "id": "en-home", "lang": "en", "layout": "layout.html", "src": "pages/en/index.html", "out": "en/index.html",
       "alternate": "tr-home", "body_class": "page-home",
       "title": "{{app}} · An ad-free slime workshop and calming toys",
-      "description": "{{app}} is a digital slime workshop where colours mix like real paint, plus eight calming mini games. No ads, no subscriptions, no data collection, and no internet required. Coming soon to the App Store."
+      "description": "{{app}} is a digital slime workshop where colours mix like real paint, plus eight calming mini games. No ads, no subscriptions, no data collection, and no internet required. On the App Store."
     },
     {
       "id": "tr-privacy", "lang": "tr", "layout": "layout.html", "src": "pages/tr/gizlilik.html", "out": "gizlilik/index.html",
