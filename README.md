@@ -6,10 +6,10 @@ Yumuş'un (çocuklar için reklamsız, aboneliksiz, veri toplamayan slime ve rah
 
 | Alan | Adres |
 | --- | --- |
-| Gizlilik politikası (TR) | https://mhmtmutlu.github.io/yumus-app/gizlilik/ |
-| Gizlilik politikası (EN) | https://mhmtmutlu.github.io/yumus-app/en/privacy/ |
-| Destek | https://mhmtmutlu.github.io/yumus-app/destek/ (EN: https://mhmtmutlu.github.io/yumus-app/en/support/) |
-| Pazarlama | https://mhmtmutlu.github.io/yumus-app/ (EN: https://mhmtmutlu.github.io/yumus-app/en/) |
+| Gizlilik politikası (TR) | https://yumus.mm-apps.com/gizlilik/ |
+| Gizlilik politikası (EN) | https://yumus.mm-apps.com/en/privacy/ |
+| Destek | https://yumus.mm-apps.com/destek/ (EN: https://yumus.mm-apps.com/en/support/) |
+| Pazarlama | https://yumus.mm-apps.com/ (EN: https://yumus.mm-apps.com/en/) |
 
 Bu yolları değiştirmeyin; App Store Connect bunlara bağlanır.
 
@@ -51,7 +51,7 @@ python3 -I tools/build.py --check   # üretilmiş dosyalar güncel mi
 python3 -m http.server 8000         # depo kökünde
 ```
 
-Tarayıcıda http://localhost:8000/ açın. `404.html`, GitHub Pages'teki gibi `/yumus-app/` altında çalışacak şekilde ayarlıdır; onu denemek için depoyu `yumus-app` adlı bir klasörün içinden sunun (ör. bir üst klasörde `python3 -m http.server` → http://localhost:8000/yumus-app/404.html).
+Tarayıcıda http://localhost:8000/ açın. `404.html`, özel alan adında (`yumus.mm-apps.com`, kök) çalışacak şekilde ayarlıdır: http://localhost:8000/404.html.
 
 iPhone görünümü için simülatörde: `xcrun simctl openurl booted http://localhost:8000/`.
 
@@ -60,7 +60,7 @@ iPhone görünümü için simülatörde: `xcrun simctl openurl booted http://loc
 1. Depoyu GitHub'a gönderin (`git push -u origin main`).
 2. GitHub → depo → **Settings → Pages**.
 3. **Build and deployment → Source: Deploy from a branch**, **Branch: `main`**, klasör **`/ (root)`** → **Save**.
-4. Birkaç dakika sonra site https://mhmtmutlu.github.io/yumus-app/ adresinde yayında olur. `.nojekyll` dosyası Jekyll işlemesini kapatır.
+4. Birkaç dakika sonra site https://yumus.mm-apps.com/ adresinde yayında olur. `.nojekyll` dosyası Jekyll işlemesini kapatır.
 
 ## Özel alan adı eklenirse
 
@@ -69,7 +69,7 @@ iPhone görünümü için simülatörde: `xcrun simctl openurl booted http://loc
 3. Settings → Pages → Custom domain; GitHub'ın oluşturduğu `CNAME` dosyasını depoda tutun, **Enforce HTTPS**'i açın.
 4. App Store Connect'teki gizlilik, destek ve pazarlama adreslerini yeni alan adıyla güncelleyin.
 
-Not: `robots.txt` yalnızca alan adının kökünde okunur; `github.io/yumus-app/` altındayken arama motorları onu dikkate almaz (sitemap'i Search Console'dan elle verebilirsiniz). Özel alan adında kendiliğinden geçerli olur.
+Not: site özel alan adının kökünde (`yumus.mm-apps.com`) yayınlandığı için `robots.txt` ve `sitemap.xml` doğrudan geçerlidir.
 
 ## App Store'a çıkış günü
 
